@@ -564,7 +564,7 @@ e_GO3 <- reactive({
       
       else if (a=="KEGG" && "KEGG_GSEA" %in% input$KEGG_analysis) {
         
-        emapplot(gsea_KEGG2, showCategory=20)
+        emapplot(gsea_KEGG3, showCategory=20)
         
         
       }
@@ -577,7 +577,7 @@ e_GO3 <- reactive({
       
       else if (a=="Disease" && "DO_GSEA" %in% input$Disease_analysis) {
         
-        emapplot(gsea_do2, showCategory=20)
+        emapplot(gsea_do3, showCategory=20)
         
         
       }
